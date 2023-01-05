@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\CrossCutting\CleanArchitecture.CrossCutting.csproj" />
+        <ProjectReference Include="..\Database\CleanArchitecture.Database.csproj" />
+        <ProjectReference Include="..\Domain\CleanArchitecture.Domain.csproj" />
+    </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+<Project>
+    <PropertyGroup>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <LangVersion>latest</LangVersion>
+        <NeutralLanguage>en</NeutralLanguage>
+            <FineCodeCoverage>
+                <Enabled>True</Enabled>
+                <IncludeTestAssembly>False</IncludeTestAssembly>
+                <ExcludeByFile>
+                    **/*Program.cs
+                    **/*Extensions.cs
+                    **/CrossCutting/*.cs
+                    **/CrossCutting/**/*.cs
+                </ExcludeByFile>
+            </FineCodeCoverage>
+    </PropertyGroup>
+</Project>
